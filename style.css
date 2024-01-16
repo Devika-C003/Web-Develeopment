@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(193, 223, 184, 0.222);
+}
+
+.container {
+  width: 70%; 
+  margin: auto;
+  display: block;
+    border: 2px solid white;
+  background-color: white;
+  border-radius: 1.5rem; 
+  padding: 2rem; 
+  margin-top: 9%;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  margin-bottom: 2rem; 
+}
+
+label {
+  color: rgb(102, 114, 114);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+input {
+  height: 2.5rem; 
+  border: 0;
+  border-bottom: 1px solid rgb(102, 114, 114);
+  font-size: 1.1rem; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 15px; 
+}
+
+input::placeholder {
+  font-weight: lighter;
+}
+
+input:focus {
+  outline: none; 
+}
+
+.degree_type {
+  display: flex;
+  justify-content: space-around;
+}
+
+select {
+  height: 2.5rem; /* Increased select height for better visibility */
+  border-radius: 0.8rem; /* Increased border radius for a softer look */
+  font-size: 1.1rem;
+  border: 0;
+  margin-top: 15px;
+  border-bottom: 1px solid rgb(102, 114, 114);
+}
+
+select:focus {
+  transition: 200ms;
+  background-color: rgba(205, 241, 204, 0.836);
+  color: rgb(30, 26, 26);
+}
+
+.res_container {
+  width: 100%;
+  margin-top: 2rem; /* Slightly increased top margin for better separation */
+}
+
+.res_container > div {
+  display: flex;
+  justify-content: center;
+}
+
+.res_sub_container > input {
+  margin-left: 1rem;
+  background-color: #f2f2f2; /* Changed background color for better contrast */
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn_container input {
+  border: 1px solid rgb(37, 78, 51);
+  background-color: rgba(40, 104, 65, 0.836);
+  color: white;
+  border-radius: 0.8rem; /* Increased border radius for a softer look */
+  width: 25%;
+  height: 2.7rem; /* Increased button height for better visibility */
+}
+
+.btn_container input:hover {
+  background-color: white;
+  color: rgba(32, 95, 87, 0.836);
+  cursor: pointer;
+  transition-delay: 200ms;
+}
